@@ -1,24 +1,49 @@
-# README
+# hello-rails-back-end
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a simple rails for the backend api that returns messages from a database.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
 
-* System dependencies
+## Link to React App
+[Rails-Back-End](https://github.com/CollinsTatang/hello-rails-back-end.git)
 
-* Configuration
+## Getting Started
 
-* Database creation
+- **To get a local copy of the repository please run the following commands on your terminal:**
+   - `git clone https://github.com/CollinsTatang/hello-rails-back-end.git`
+   - `cd hello-rails-back-end`
+   - `bundle install` to couple all dependacies
 
-* Database initialization
+- **Make sure you do have a database installed locally (Postgresql or any other)**
+  - After cloning the project:
+    - Goto `config` directory
+    - Open the `database.yml` file
+    - Swap the `username` and `password` on line `27 & 28` to match your database credentials
 
-* How to run the test suite
+- **Run the application**
+   - `rails s` to start the rails application
+  
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 ## Authors
 
-* Deployment instructions
+ **Makungong Collins Tatang**
 
-* ...
+- GitHub: [@CollinsTatang](https://github.com/CollinsTatang)
+- Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
+- LinkedIn: [makungong-collins](https://www.linkedin.com/in/makungong-collins-b43260190/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+- Microverse for the readme template
